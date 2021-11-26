@@ -115,6 +115,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .site-nav {
   display: flex;
@@ -208,7 +209,9 @@ body {
 .benefits-icon-container {
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -216,6 +219,7 @@ body {
 .benefits-item {
   width: 270px;
 }
+
 .benefits-list {
   display: flex;
 }
@@ -387,9 +391,7 @@ body {
 .join-container {
   margin-left: 70px;
 }
-.footer-list {
-  margin-right: 70px;
-}
+
 .logo-footer {
   color: var(--hero-text-color);
 }
